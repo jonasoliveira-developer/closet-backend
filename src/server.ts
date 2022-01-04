@@ -1,8 +1,10 @@
 import express from 'express'
 import dotenv from 'dotenv'
 
+
 const app = express()
 dotenv.config()
+import './database'
 
 app.use(express.json())
 
