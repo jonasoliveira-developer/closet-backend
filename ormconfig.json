@@ -4,7 +4,7 @@
     "port": 5432,
     "username": "postgres",
     "password": "1234",
-    "database": "app_closet",
+    "database": "teste-closet",
     "entities": ["./src/models/*.ts"],
     "migrations": ["./src/database/migrations/*.ts"],
     "cli": {
